@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+     <div class="start-game" id="start-game">
+        <h1 class="text-center,">Little Red Riding Hood</h1>
+        <br /><br />
+        <h4 id="text" class="text-center">
+          Click the button to start the adventure!
+        </h4>
+        <br /><br />
+        <input
+          type="button"
+          value="Start Game"
+          class="btn btn-success text-center"
+          onclick="startGame() "
+        />
+      </div>
+      <div class="forest-description" id="forest-description"></div>
+      <input id="direction" type="text"/>
+      </div>
+    </div>
+
+    <script src="testfile.js"></script>
+  </body>
+</html>
